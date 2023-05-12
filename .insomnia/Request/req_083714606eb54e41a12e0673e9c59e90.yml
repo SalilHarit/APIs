@@ -1,0 +1,33 @@
+_id: req_083714606eb54e41a12e0673e9c59e90
+type: Request
+parentId: wrk_1a3d8d990cc54489a193eaa04e643bb4
+modified: 1683876916962
+created: 1683876050491
+url: https://httpbin.org/post
+name: GET request using Insomnia
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_eca3c4c52d7d459fb9cb2af5eafe1caf
+      name: author
+      value: lord of the rings
+      description: ""
+    - id: pair_e74c7cbe150f44369662f52f487cc947
+      name: title
+      value: JJ
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1683876050491
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

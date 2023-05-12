@@ -1,0 +1,34 @@
+_id: req_5d53c6e30910414c94acaf858b3088df
+type: Request
+parentId: wrk_1a3d8d990cc54489a193eaa04e643bb4
+modified: 1683877031629
+created: 1683876871497
+url: https://httpbin.org/post
+name: GET request using JSON Insomnia
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+                "title": "Lord of the Rings",
+                "author": "JRR Tolkien",
+                "published" : {
+                            "year": 1954,
+                            "month": "july",
+                            "day" : 29
+                }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683876871497
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
